@@ -47,6 +47,12 @@ export default function Home() {
         <label>The northern city skyline.</label>
       </div>
       <div style={{ height: 32 }} />
+      <div className="top-grid">
+        <img src="/city-4.jpeg" />
+        <div style={{ height: 5 }} />
+        <label>Looking out at the downtown district from the sky bridge.</label>
+      </div>
+      <div style={{ height: 32 }} />
       <div className="equal-grid">
         <img src="/city-2.jpeg" />
         <img src="/city-5.jpeg" />
@@ -55,26 +61,16 @@ export default function Home() {
           district.
         </label>
         <label>
-          The view from underneath the sky bridge, looking up at the downtown
-          district.
+          The view of the downtown district from a nearby balcony street.
         </label>
       </div>
       <div style={{ height: 32 }} />
       <div className="top-grid">
-        <img src="/city-4.jpeg" />
+        <img src="/city-3.jpeg" />
         <div style={{ height: 5 }} />
         <label>
           An avenue in the south-east district of the city, looking toward the
-          sky bridge.
-        </label>
-      </div>
-      <div style={{ height: 32 }} />
-      <div className="top-grid">
-        <img src="/city-6.jpeg" />
-        <div style={{ height: 5 }} />
-        <label>
-          An avenue in the south-east district of the city, looking toward the
-          sky bridge.
+          sky bridge and downtown district.
         </label>
       </div>
     </Frame>
