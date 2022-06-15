@@ -5,7 +5,7 @@ export default function Values() {
   const { query }: NextRouter = useRouter();
   const { id } = query;
   return (
-    <Link href="/photos">
+    <Link href="/projects/city">
       <div
         style={{
           display: "flex",
@@ -31,7 +31,7 @@ export default function Values() {
             pointerEvents: "none",
             borderRadius: 4,
           }}
-          src={`/photo-${id}.jpg`}
+          src={`/city-${id}.jpeg`}
         />
         <div
           style={{

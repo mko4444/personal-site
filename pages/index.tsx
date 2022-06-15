@@ -8,7 +8,7 @@ export default function Home() {
       <p style={{ lineHeight: 1.5 }}>
         I'm a product designer, full-stack web developer, and startup founder.
         I'm currently building <a href="https://alpha.onportal.xyz">Portal</a>,
-        the knowledge graph for communities.
+        the knowledge graph network.
       </p>
       <p style={{ lineHeight: 1.5 }}>
         I previously co-founded a company called{" "}
@@ -93,7 +93,7 @@ const Button = ({ children }: any) => {
 
   const href =
     children === "home" ? "/" : "/" + children.toString().replace(" ", "-");
-  console.log(pathname, href, pathname.startsWith(href) && href !== "/");
+
   return (
     <Link href={href}>
       <h4

@@ -1,4 +1,6 @@
-import { Frame } from "../index";
+import { Frame } from "pages";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -14,6 +16,20 @@ export default function Home() {
           </label>
         </p>
       </em>
+      <div style={{ height: 32 }} />
+      <div className="grid top-grid">
+        <Link href="/projects/city/3">
+          <div>
+            <Image layout="fill" src="/city-3.jpeg" />
+          </div>
+        </Link>
+        <div style={{ height: 5 }} />
+        <label>
+          An avenue in the south-east district of the city, looking toward the
+          sky bridge and downtown district.
+        </label>
+      </div>
+      <div style={{ height: 32 }} />
       <p>
         For the last few years, I've been quietly building a city inside of
         Minecraft. With well over a hundred unique skyscrapers, it may very well
@@ -41,21 +57,27 @@ export default function Home() {
         to watch.
       </p>
       <div style={{ height: 32 }} />
-      <div className="top-grid">
-        <img src="/city-7.jpeg" />
-        <div style={{ height: 5 }} />
-        <label>The northern city skyline.</label>
-      </div>
-      <div style={{ height: 32 }} />
-      <div className="top-grid">
-        <img src="/city-4.jpeg" />
+      <div className="grid top-grid">
+        <Link href="/projects/city/4">
+          <div>
+            <Image layout="fill" src="/city-4.jpeg" />
+          </div>
+        </Link>
         <div style={{ height: 5 }} />
         <label>Looking out at the downtown district from the sky bridge.</label>
       </div>
       <div style={{ height: 32 }} />
-      <div className="equal-grid">
-        <img src="/city-2.jpeg" />
-        <img src="/city-5.jpeg" />
+      <div className="grid equal-grid">
+        <Link href="/projects/city/2">
+          <div>
+            <Image layout="fill" src="/city-2.jpeg" />
+          </div>
+        </Link>
+        <Link href="/projects/city/5">
+          <div>
+            <Image layout="fill" src="/city-5.jpeg" />
+          </div>
+        </Link>
         <label>
           The view from underneath the sky bridge, looking up at the downtown
           district.
@@ -65,14 +87,16 @@ export default function Home() {
         </label>
       </div>
       <div style={{ height: 32 }} />
-      <div className="top-grid">
-        <img src="/city-3.jpeg" />
+      <div className="grid top-grid">
+        <Link href="/projects/city/7">
+          <div>
+            <Image layout="fill" src="/city-7.jpeg" />
+          </div>
+        </Link>
         <div style={{ height: 5 }} />
-        <label>
-          An avenue in the south-east district of the city, looking toward the
-          sky bridge and downtown district.
-        </label>
+        <label>The northern city skyline.</label>
       </div>
+      <div style={{ height: 32 }} />
     </Frame>
   );
 }

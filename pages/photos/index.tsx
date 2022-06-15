@@ -1,5 +1,6 @@
 import { Frame } from "../index";
 import Link from "next/link";
+import Image from "next/image";
 
 const photoArr = [1, 2, 3, 4, 5, 6];
 
@@ -9,7 +10,9 @@ export default function Values() {
       <div className="photo-grid">
         {photoArr.map((n: number, i: number) => (
           <Link href={`/photos/${i + 1}`}>
-            <div>{n && <img src={`photo-${i + 1}.jpg`} />}</div>
+            <div>
+              {n && <Image layout="fill" src={`/photo-${i + 1}.jpg`} />}
+            </div>
           </Link>
         ))}
         <div style={{ height: 34 }} />
