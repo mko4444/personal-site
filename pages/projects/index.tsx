@@ -8,7 +8,7 @@ export default function Portal() {
         <Link href="https://alpha.onportal.xyz">
           <li>
             <label>Portal</label>
-            <label>The knowledge graph for communities</label>
+            <label>The knowledge graph</label>
           </li>
         </Link>
         <Link href="/projects/city">
