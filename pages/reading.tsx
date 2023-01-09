@@ -8,10 +8,9 @@ export default function Portal() {
     <Frame title="reading list">
       <h3>Books</h3>
       <p style={pStyle}>
-        I used to read as many books as possible, but I found myself absorbing
-        little of what I read. So now I choose my reads carefully and re-read
-        them often. Each book in this list is in my rotation, and each one
-        shapes how I think about the world.
+        I used to read as many books as possible, but I found myself absorbing little of what I read. So now I choose my
+        reads carefully and re-read them often. Each book in this list is in my rotation, and each one shapes how I
+        think about the world.
       </p>
       <div style={{ height: 4 }} />
       <ul>
@@ -87,9 +86,7 @@ export default function Portal() {
         </Link>
         <Link href="https://blog.ethereum.org/2014/05/06/daos-dacs-das-and-more-an-incomplete-terminology-guide/">
           <li>
-            <label>
-              DAOs, DACs, DAs and More: An Incomplete Terminology Guide
-            </label>
+            <label>DAOs, DACs, DAs and More: An Incomplete Terminology Guide</label>
             <label>Vitalik Buterin • Ethereum Foundation</label>
           </li>
         </Link>

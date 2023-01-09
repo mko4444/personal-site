@@ -6,29 +6,26 @@ export default function Home() {
   return (
     <Frame title="Hello">
       <p style={{ lineHeight: 1.5 }}>
-        I'm a product designer, full-stack web developer, and startup founder.
-        I'm currently building <a href="https://alpha.onportal.xyz">Portal</a>,
-        the knowledge graph network.
+        I am a product designer and full-stack web developer. I&apos;m currently working on Eventcaster, which is sort
+        of like Facebook Events, but for crypto. It&apos;s a Farcaster client that displays casts as events, and lets
+        users coordinate and discuss them in one place.
       </p>
       <p style={{ lineHeight: 1.5 }}>
-        I previously co-founded a company called{" "}
-        <a href="https://twitter.com/joinsail">Sail</a>, which was acquired by
-        Maven in 2021. It was part community, part group-coaching program, with
-        the goal of helping men become more vulnerable and emotionally
-        intelligent.
+        I previously co-founded a company called <a href="https://twitter.com/joinsail">Sail</a>, which was acquired by
+        Maven in 2021. It was part community, part group-coaching program, with the goal of helping men become more
+        vulnerable and emotionally intelligent. I also worked on a knowledge graph for crypto communities called Portal.
       </p>
       <p style={{ lineHeight: 1.5 }}>
-        My past roles have all been at startups and have included a mix of
-        design, engineering, and product. I worked at{" "}
-        <a href="https://mightyapp.com">Mighty</a>, where I was a "hacker in
-        residence," building Chrome extensions to improve the UX of the web
-        browser. I was also recently the lead designer, and before that lead
+        My past roles have all been at startups and have included a mix of design, engineering, and product. I worked at{" "}
+        <a href="https://mightyapp.com">Mighty</a>, where I was a &quot;hacker in residence,&quot; building Chrome
+        extensions to improve the UX of the web browser. I was also recently the lead designer, and before that lead
         front-end engineer, at <a href="https://mem.co">Mem Protocol</a>.
       </p>
       <div style={{ height: 8 }} />
       <label style={{ fontSize: 14, fontWeight: 500, opacity: 0.5 }}>
         {" "}
-        kochak.eth (ENS) | @m (Portal) | @matthew (Farcaster)
+        mattkoch.eth (ENS)<span style={{ margin: "0 6px", opacity: 0.33 }}> | </span>
+        @matthew (Farcaster)
       </label>
     </Frame>
   );
@@ -91,8 +88,7 @@ export const Sidebar = () => (
 const Button = ({ children }: any) => {
   const { pathname }: NextRouter = useRouter();
 
-  const href =
-    children === "home" ? "/" : "/" + children.toString().replace(" ", "-");
+  const href = children === "home" ? "/" : "/" + children.toString().replace(" ", "-");
 
   return (
     <Link href={href}>
@@ -100,10 +96,7 @@ const Button = ({ children }: any) => {
         className={cn([
           "underline",
           {
-            active:
-              href !== "/"
-                ? pathname.startsWith(href) && href !== "/"
-                : pathname === "/",
+            active: href !== "/" ? pathname.startsWith(href) && href !== "/" : pathname === "/",
           },
         ])}
       >
