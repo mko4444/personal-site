@@ -4,7 +4,7 @@ import cn from "classnames";
 
 export default function Home() {
   return (
-    <Frame title="Matt Kochakian">
+    <Frame title="Matthew Kochakian">
       <p style={{ lineHeight: 1.5 }}>
         I&apos;m a product designer, full-stack web developer, and community-builder. I&apos;m currently the co-founder
         of <Link href="https://event.fund">EventFund</Link>, the crowdfunded events app for onchain communities.
