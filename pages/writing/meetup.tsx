@@ -43,18 +43,10 @@ export default function Writing() {
       </p>
       <h4>––––</h4>
       <p style={{ lineHeight: 1.5 }}>
-        Ultimately I think what really held Meetup back is timing. When Meetup got big in the 00’s, we were still busy
-        bringing our IRL networks online. The influencer generation spawned by Instagram was still many years away, and
-        there were few if any “global audiences” on the internet.
-      </p>
-      <p style={{ lineHeight: 1.5 }}>
-        But today things are completely different—the online world firmly drives the offline world. We’ve turned our
-        online networks into massive global communities that drive our purchase decisions, form our beliefs, and help us
-        make friends. And in this post-COVID world, people are free to move and work wherever.
-      </p>
-      <p style={{ lineHeight: 1.5 }}>
-        Marc Andreessen says that there are no bad ideas, there’s only bad timing. Meetup was a victim of bad timing.
-        But the world is a different place today, and now it’s time for something new. Stay tuned.
+        Ultimately I think what really held Meetup back was timing. When Meetup got big in the 00&apos;s, the world was
+        a different place than it is today. Back then we were busy bringing our IRL networks online, but now we&apos;ve
+        built massive global communities that drive our purchase decisions, form our beliefs, and help us make friends.
+        And today there is a massive opportunity to bring these communities out into the physical world.
       </p>
       <div style={{ height: 8 }} />
       <label style={{ fontSize: 14, fontWeight: 500, opacity: 0.5 }}>
